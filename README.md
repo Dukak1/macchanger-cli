@@ -15,3 +15,29 @@ This tool allows you to either set a custom MAC address or generate a random one
 - Useful for privacy, anonymity, and security testing.
 
 ---
+
+## ⚙️ Installation
+
+### Requirements:
+- Python 3.x
+- Linux operating system
+- `ifconfig` command (Install via `sudo apt install net-tools` if needed)
+- Root privileges to change MAC address
+
+### Install via GitHub:
+
+git clone https://github.com/your-username/macchanger.git
+cd macchanger
+pip install .
+
+
+🖥️ Usage
+✅ Change MAC Address to a Custom Address:
+
+macchanger -i <interface> -m <new-mac-address>
+
+⚡ Quick Mode (Fully Automatic):
+
+macchanger
+
+![Ekran görüntüsü 2025-06-28 144339](https://github.com/user-attachments/assets/8da2431b-f639-4967-a60f-bf8996b103b6)
