@@ -32,11 +32,12 @@ cd macchanger
 
 pip install .
 
+---
 
-🖥️ Usage
+## 🖥️ Usage
 ✅ Change MAC Address to a Custom Address:
 
-macchanger -i <interface> -m <new-mac-address>
+macchanger -i eth0 -m ex:am:pl:e0:ma:c0
 
 ⚡ Quick Mode (Fully Automatic):
 
