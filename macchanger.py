@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import subprocess as sub
 import optparse as opt
 import re
