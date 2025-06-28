@@ -26,8 +26,10 @@ This tool allows you to either set a custom MAC address or generate a random one
 
 ### Install via GitHub:
 
-git clone https://github.com/your-username/macchanger.git
+git clone https://github.com/Dukak1/macchanger.git
+
 cd macchanger
+
 pip install .
 
 
